@@ -35,7 +35,7 @@ export default function Dashboard({ tickets }) {
     <div className="page-stack">
       <div className="page-heading">
         <div>
-          <h2>Good afternoon, Arun</h2>
+          <h2>Welcome, Admin</h2>
           <p>Here is what is happening with your support tickets today.</p>
         </div>
         <Link to="/tickets/new" className="btn btn-primary"><Plus size={17} /> Create Ticket</Link>
